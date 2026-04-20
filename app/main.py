@@ -31,7 +31,6 @@ MQTT_CLIENT_ID = os.getenv("MQTT_CLIENT_ID", "neuroguard-backend-subscriber")
 
 # Tópicos suscritos (wildcard + para cualquier patient_id y device_id)
 TOPIC_TELEMETRY = "neuroguard/+/+/telemetry"
-TOPIC_EVENT     = "neuroguard/+/+/event"
 TOPIC_STATUS    = "neuroguard/+/+/status"
 
 # ──────────────────────────────────────────────
